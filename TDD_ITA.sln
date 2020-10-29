@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_ITA", "TDD_ITA.csproj", "{4C64ED2E-4BFE-4E90-844B-0CAD4ED11664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilha", "Pilha\Pilha.csproj", "{66AC63E8-0EF3-448E-8A35-0314131978FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilhaTests", "PilhaTests\PilhaTests.csproj", "{411F6028-B32A-4036-AD51-EF5C464DE969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tradutor", "..\Tradutor\Tradutor.csproj", "{871A75B4-42EB-420A-A782-EC05D0EC595A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradutorTests", "..\TradutorTests\TradutorTests.csproj", "{C8F97408-F592-41B5-9820-F38407593332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrinhoCompras", "..\CarrinhoCompras\CarrinhoCompras.csproj", "{6CB2D167-9B17-4653-9C22-6A9BF68B63A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrinhoComprasTests", "..\CarrinhoComprasTests\CarrinhoComprasTests.csproj", "{26D85A40-C721-470D-8AE1-A88B8E9ED706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C64ED2E-4BFE-4E90-844B-0CAD4ED11664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C64ED2E-4BFE-4E90-844B-0CAD4ED11664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C64ED2E-4BFE-4E90-844B-0CAD4ED11664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C64ED2E-4BFE-4E90-844B-0CAD4ED11664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AC63E8-0EF3-448E-8A35-0314131978FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AC63E8-0EF3-448E-8A35-0314131978FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AC63E8-0EF3-448E-8A35-0314131978FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AC63E8-0EF3-448E-8A35-0314131978FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411F6028-B32A-4036-AD51-EF5C464DE969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411F6028-B32A-4036-AD51-EF5C464DE969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411F6028-B32A-4036-AD51-EF5C464DE969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411F6028-B32A-4036-AD51-EF5C464DE969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871A75B4-42EB-420A-A782-EC05D0EC595A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871A75B4-42EB-420A-A782-EC05D0EC595A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871A75B4-42EB-420A-A782-EC05D0EC595A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871A75B4-42EB-420A-A782-EC05D0EC595A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F97408-F592-41B5-9820-F38407593332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F97408-F592-41B5-9820-F38407593332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F97408-F592-41B5-9820-F38407593332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F97408-F592-41B5-9820-F38407593332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB2D167-9B17-4653-9C22-6A9BF68B63A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB2D167-9B17-4653-9C22-6A9BF68B63A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB2D167-9B17-4653-9C22-6A9BF68B63A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB2D167-9B17-4653-9C22-6A9BF68B63A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D85A40-C721-470D-8AE1-A88B8E9ED706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D85A40-C721-470D-8AE1-A88B8E9ED706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D85A40-C721-470D-8AE1-A88B8E9ED706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D85A40-C721-470D-8AE1-A88B8E9ED706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5BD15E6-57A9-4E9A-AD14-64EB95D5CAE9}
+	EndGlobalSection
+EndGlobal
